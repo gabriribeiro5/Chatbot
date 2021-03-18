@@ -1,0 +1,4 @@
+python
+fatsapi
+uvicorn
+mysql
