@@ -6,3 +6,5 @@ FROM nginx:latest
 LABEL description="Servidor de execução chatbot" maintainer="Gabriel Ribeiro<gabriribeiro5@live.com>"
 
 EXPOSE 9090
+
+#RUN: SCRIPT DE CONSTRUÇÃO DO SQL_DBCHATBOT DENTRO DO SGBD

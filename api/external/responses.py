@@ -1,0 +1,1 @@
+#funções de seleção e entrega de respostas

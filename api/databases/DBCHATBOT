@@ -1,0 +1,42 @@
+CREATE DATABASE DBCHATBOT
+
+USE DBCHATBOT
+
+CREATE TABLE Users(
+    keycode nvarchar,
+    phoneNumber int (13),
+    userName nvarchar,
+    gender nvarchar,
+    age tinyint,
+    picturePath nvarchar,
+    homeAddress nvarchar,
+    transactionsQuantitie smallint, 
+    PRIMARY KEY (keycode)
+);
+
+CREATE TABLE Supplier(
+    keycode nvarchar,
+    suppCode nvarchar,
+    suppName nvarchar,
+    razaoSocial nvarchar,
+    cnpj nvarchar,
+    contactName nvarchar,
+    contactNumber int (13)
+    PRIMARY KEY (suppCode)
+)
+
+CREATE TABLE Categories(
+    keycode nvarchar,
+    catCode nvarchar,
+    catName nvarchar,
+    PRIMARY KEY (catCode)
+)
+
+CREATE TABLE Products(
+    keycode nvarchar,
+    prodCode nvarchar,
+    productName nvarchar,
+    productPrice smallint,
+    picturePath nvarchar,
+    PRIMARY KEY (prodCode)
+)
